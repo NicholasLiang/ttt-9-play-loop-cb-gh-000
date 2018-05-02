@@ -44,7 +44,7 @@ end
 
 def full?(board)
   board.each do |grid|
-    if grid != " " && grid != ""
+    if grid == " " && grid == ""
       return false
     end
   end
