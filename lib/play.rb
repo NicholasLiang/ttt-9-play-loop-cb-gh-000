@@ -43,6 +43,7 @@ end
 def full?(board)
   board.each do |grid|
     if position_taken?(grid)
+      retur n
     end
   end
 end
