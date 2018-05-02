@@ -36,3 +36,17 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  while !full?(board)
+    turn(board)
+  end
+end
+
+def full?(board)
+  board.each do |grid|
+    if grid == " " || grid == ""
+      return false
+    end
+  end
+  true
+end
