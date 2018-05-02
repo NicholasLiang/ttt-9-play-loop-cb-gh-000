@@ -37,8 +37,5 @@ end
 
 # Define your play method below
 def play(board)
-  9.times do
-    if board[index] == "X"
-    end
-  end
+  
 end
