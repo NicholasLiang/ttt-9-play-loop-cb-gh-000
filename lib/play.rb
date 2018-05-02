@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  if full?(board)
+  if !full?(board)
     turn(board)
   end
 end
