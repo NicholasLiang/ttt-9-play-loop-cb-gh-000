@@ -41,5 +41,5 @@ def play(board)
 end
 
 def full?(board)
-  
+  board.each{}
 end
