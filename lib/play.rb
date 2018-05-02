@@ -40,4 +40,4 @@ def play(board)
   
 end
 
-def 
+def full?(board)
