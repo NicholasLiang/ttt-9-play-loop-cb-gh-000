@@ -44,7 +44,7 @@ end
 
 def full?(board)
   board.each do |grid|
-    if !(position_taken?(board, grid))
+    if grid != " " && board[location] != ""
       return false
     end
   end
